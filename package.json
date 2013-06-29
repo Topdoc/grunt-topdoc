@@ -1,0 +1,48 @@
+{
+  "name": "grunt-topdoc",
+  "description": "grunt plugin to build usage guides from css with Topdoc.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/topcoat/grunt-topdoc",
+  "author": {
+    "name": "@dam",
+    "email": "kristoferjoseph@gmail.com",
+    "url": "http://topcoat.io"
+  },
+  "topdoc": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/topcoat/grunt-topdoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/topcoat/grunt-topdoc/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache",
+      "url": "https://github.com/topcoat/grunt-topdoc/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "topdoc": "0.0.13"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt": "~0.4.1",
+    "grunt-zip": "~0.9.2",
+    "debug": "~0.7.2",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-stylus": "~0.5.1",
+    "grunt-simple-mocha": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
