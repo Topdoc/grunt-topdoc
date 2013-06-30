@@ -27,13 +27,13 @@ module.exports = function(grunt) {
         var options = this.options({}),
             topdoc = new Topdoc(options);
 
-        console.log('OPTIONS:', options);
+        var done = this.async();
 
         //TODO: Errors?
-        topdoc.generate(function(){
-            console.log('generated');
+        var callback = function(){
             grunt.log.writeln('Generated usage guides at ' + options.destination);
-        });
-
+            done();
+        };
+        topdoc.generate(callback.bind(options));
     });
 };

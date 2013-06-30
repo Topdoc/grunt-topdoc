@@ -26,11 +26,7 @@ var grunt = require('grunt'),
     debug = require('debug')('test');
 
 describe('topdoc', function() {
-    it('should create the correct output', function(done) {
-        var callback = function(){
-            assert.equal(true, fs.existsSync('tmp/output/index.html'));
-            done();
-        };
-        setTimeout(callback.bind(done), 2000);
+    it('should create the correct output', function() {
+        assert.equal(true, fs.existsSync('tmp/output/index.html'));
     });
 });
