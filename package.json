@@ -1,7 +1,7 @@
 {
   "name": "grunt-topdoc",
   "description": "grunt plugin to build usage guides from css with Topdoc.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/topcoat/grunt-topdoc",
   "author": {
     "name": "@dam",
@@ -22,7 +22,7 @@
         "homeURL": "http://topcoat.io",
         "siteNav": [
           {
-            "url": "http://www.garthdb.com", 
+            "url": "http://www.garthdb.com",
             "text": "Usage Guidelines"
           },
           {
