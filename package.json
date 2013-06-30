@@ -32,7 +32,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "topdoc": "0.0.13"
+    "topdoc": "0.1.0"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.4.3",
