@@ -42,10 +42,10 @@ module.exports = function(grunt) {
         topdoc: {
             usageguides: {
                 options: {
-                    source: 'test/fixtures/',
-                    destination: 'tmp/output/',
-                    template: 'http://github.com/topcoat/usage-guide-theme',
-                    templateData: '<%= pkg.topdoc %>'
+                    source: '<%= pkg.topdoc.source %>',
+                    destination: '<%= pkg.topdoc.destination %>',
+                    template: '<%= pkg.topdoc.template %>',
+                    templateData: '<%= pkg.topdoc.templateData %>'
                 }
             }
         },
@@ -54,7 +54,8 @@ module.exports = function(grunt) {
         simplemocha: {
             options: {
                 ui: 'bdd',
-                reporter: 'Nyan'
+                reporter: 'Nyan',
+                timeout: 3000
             },
             all: ['test/*.test.js'],
         },
