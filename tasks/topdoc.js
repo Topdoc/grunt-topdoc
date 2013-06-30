@@ -30,8 +30,10 @@ module.exports = function(grunt) {
         console.log('OPTIONS:', options);
 
         //TODO: Errors?
-        topdoc.generate();
-        grunt.log.writeln('Generated usage guides at ' + options.destination);
+        topdoc.generate(function(){
+            console.log('generated');
+            grunt.log.writeln('Generated usage guides at ' + options.destination);
+        });
 
     });
 };
