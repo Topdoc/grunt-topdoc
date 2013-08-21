@@ -54,7 +54,6 @@ module.exports = function(grunt) {
         simplemocha: {
             options: {
                 ui: 'bdd',
-                reporter: 'Nyan',
                 timeout: 3000
             },
             all: ['test/*.test.js'],

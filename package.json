@@ -9,32 +9,32 @@
     "url": "http://topcoat.io"
   },
   "topdoc": {
-      "source": "test/fixtures/",
-      "destination": "tmp/output/",
-      "template": "https://github.com/topcoat/topdoc-theme",
-      "templateData": {
-        "title": "Topcoat",
-        "subtitle": "CSS for clean and fast web apps",
-        "download": {
-          "url": "#",
-          "label": "Download version 0.4"
-          },
-        "homeURL": "http://topcoat.io",
-        "siteNav": [
-          {
-            "url": "http://www.garthdb.com",
-            "text": "Usage Guidelines"
-          },
-          {
-            "url": "http://bench.topcoat.io/",
-            "text": "Benchmarks"
-          },
-          {
-            "url": "http://topcoat.io/blog",
-            "text": "Blog"
-          }
-        ]
-      }
+    "source": "test/fixtures/",
+    "destination": "tmp/output/",
+    "template": "node_modules/topdoc-theme",
+    "templateData": {
+      "title": "Topcoat",
+      "subtitle": "CSS for clean and fast web apps",
+      "download": {
+        "url": "#",
+        "label": "Download version 0.4"
+      },
+      "homeURL": "http://topcoat.io",
+      "siteNav": [
+        {
+          "url": "http://www.topcoat.io/topcoat",
+          "text": "Demo"
+        },
+        {
+          "url": "http://bench.topcoat.io/",
+          "text": "Benchmarks"
+        },
+        {
+          "url": "http://topcoat.io/blog",
+          "text": "Blog"
+        }
+      ]
+    }
   },
   "repository": {
     "type": "git",
@@ -57,7 +57,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "topdoc": "~0.1.1"
+    "topdoc": "~0.2.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.4.3",
@@ -67,7 +67,8 @@
     "debug": "~0.7.2",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-stylus": "~0.5.1",
-    "grunt-simple-mocha": "~0.4.0"
+    "grunt-simple-mocha": "~0.4.0",
+    "topdoc-theme": "~0.2.1"
   },
   "keywords": [
     "gruntplugin"
