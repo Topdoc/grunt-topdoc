@@ -1,4 +1,4 @@
-#Grunt Topdoc [![Build Status](https://travis-ci.org/topcoat/grunt-topdoc?branch=master)](https://travis-ci.org/topcoat/grunt-topdoc)
+#Grunt Topdoc [![Build Status](https://travis-ci.org/topcoat/grunt-topdoc.png?branch=master)](https://travis-ci.org/topcoat/grunt-topdoc)
 
 [![NPM](https://nodei.co/npm/grunt-topdoc.png)](https://nodei.co/npm/grunt-topdoc)
 
