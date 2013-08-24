@@ -1,7 +1,7 @@
 {
   "name": "grunt-topdoc",
   "description": "grunt plugin to build usage guides from css with Topdoc.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/topcoat/grunt-topdoc",
   "author": {
     "name": "@dam",
