@@ -614,21 +614,20 @@ limitations under the License.
   name: List
   description: Scroll it, hard
   markup:
-    mobile:
-      <div class="topcoat-list__container">
-        <h3 class="topcoat-list__header">Category</h3>
-        <ul class="topcoat-list">
-          <li class="topcoat-list__item">
-            Item
-          </li>
-          <li class="topcoat-list__item">
-            Item
-          </li>
-          <li class="topcoat-list__item">
-            Item
-          </li>
-        </ul>
-      </div>
+    <div class="topcoat-list__container">
+      <h3 class="topcoat-list__header">Category</h3>
+      <ul class="topcoat-list">
+        <li class="topcoat-list__item">
+          Item
+        </li>
+        <li class="topcoat-list__item">
+          Item
+        </li>
+        <li class="topcoat-list__item">
+          Item
+        </li>
+      </ul>
+    </div>
   tags:
     - desktop
     - light
